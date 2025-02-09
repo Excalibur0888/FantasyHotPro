@@ -2385,3 +2385,135 @@ footer {
     padding: 10px 20px;
   }
 }
+
+/* Thank You Page Styles */
+.thank-you {
+  padding: 80px 0;
+  background-color: var(--body-color);
+}
+
+.thank-you__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you__info {
+  text-align: center;
+}
+
+.thank-you__title {
+  font-size: 2rem;
+  color: var(--heading-color);
+  margin-bottom: 40px;
+  font-family: var(--font-headings);
+}
+
+.thank-you__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.thank-you__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.thank-you__item:hover {
+  transform: translateY(-5px);
+}
+
+.thank-you__icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.thank-you__icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.thank-you__details h4 {
+  font-size: 1.2rem;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+  font-family: var(--font-headings);
+}
+
+.thank-you__text {
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.thank-you__link {
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.thank-you__link:hover {
+  color: var(--accent-color);
+}
+
+.thank-you__action {
+  margin-top: 40px;
+}
+
+.thank-you__button {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.thank-you__button:hover {
+  background-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .thank-you {
+    padding: 40px 0;
+  }
+
+  .thank-you__content {
+    padding: 20px;
+  }
+
+  .thank-you__title {
+    font-size: 1.5rem;
+  }
+
+  .thank-you__list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .thank-you__item {
+    padding: 15px;
+  }
+}
