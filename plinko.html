@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plinko Game - Fantasy Hot Pro</title>
+    <meta name="description" content="Play Plinko on Fantasy Hot Pro. Drop the ball and watch it bounce through pegs for exciting multiplier wins. Experience the thrill of this classic game!">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__content">
+				<a href="index.html" class="header__logo">
+					
+					<span class="header__logo-text">FantasyHotPro</span>
+				</a>
+
+				<button class="header__burger" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+
+				<nav class="header__nav">
+					<ul class="header__menu">
+						<li><a href="index.html" class="header__link">Home</a></li>
+						<li><a href="about.html" class="header__link">About Us</a></li>
+						<li class="header__dropdown">
+							<a href="javascript:void(0)" class="header__link">Fantasy Games</a>
+							<ul class="header__submenu">
+								<li><a href="cricket.html">Fantasy Cricket</a></li>
+								<li><a href="basketball.html">Fantasy Basketball</a></li>
+								<li><a href="football.html">Fantasy Football</a></li>
+								<li><a href="kabaddi.html">Fantasy Kabaddi</a></li>
+								<li><a href="aviator.html">Fantasy Aviator</a></li>
+								<li><a href="plinko.html">Fantasy Plinko</a></li>
+								<li><a href="laser247.html">Fantasy Laser247</a></li>
+								<li><a href="101f.html">Fantasy 101f</a></li>
+							</ul>
+						</li>
+						<li><a href="blog.html" class="header__link">Blog</a></li>
+						<li><a href="contact.html" class="header__link">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+    <main>
+        <section class="game-hero game-hero--plinko">
+            <div class="container">
+                <div class="game-hero__content">
+                    <h1 class="game-hero__title">Plinko</h1>
+                    <p class="game-hero__subtitle">Watch your luck unfold as the ball bounces through the pegs</p>
+                    <div class="game-hero__buttons">
+                        <a href="contact.html" class="btn btn--primary">Play Now</a>
+                        <a href="#how-to-play" class="btn btn--secondary">How to Play</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-features" id="features">
+            <div class="container">
+                <h2 class="section-title">Game Features</h2>
+                <div class="game-features__grid">
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <img src="img/icons/customization.svg" alt="Customization">
+                        </div>
+                        <h3 class="feature-card__title">Risk Levels</h3>
+                        <p class="feature-card__text">Choose from multiple risk levels to match your playing style</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <img src="img/icons/auto-play.svg" alt="Auto Play">
+                        </div>
+                        <h3 class="feature-card__title">Auto Play</h3>
+                        <p class="feature-card__text">Set up automatic drops with your preferred settings</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <img src="img/icons/fairness.svg" alt="Fairness">
+                        </div>
+                        <h3 class="feature-card__title">Provably Fair</h3>
+                        <p class="feature-card__text">Verify each drop's randomness with our transparent system</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-to-play" id="how-to-play">
+            <div class="container">
+                <h2 class="section-title">How to Play</h2>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-card__number">1</div>
+                        <h3 class="step-card__title">Choose Risk Level</h3>
+                        <p class="step-card__text">Select from low, medium, or high risk for different multiplier ranges</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-card__number">2</div>
+                        <h3 class="step-card__title">Set Bet Amount</h3>
+                        <p class="step-card__text">Enter your bet amount and number of balls to drop</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-card__number">3</div>
+                        <h3 class="step-card__title">Drop the Ball</h3>
+                        <p class="step-card__text">Watch as the ball bounces through pegs to your prize multiplier</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="risk-levels" id="risk-levels">
+            <div class="container">
+                <h2 class="section-title">Risk Levels</h2>
+                <div class="risk-levels__grid">
+                    <div class="risk-card risk-card--low">
+                        <h3 class="risk-card__title">Low Risk</h3>
+                        <div class="risk-card__multipliers">
+                            <span>1.2x - 2x</span>
+                        </div>
+                        <p class="risk-card__description">More frequent wins with lower multipliers</p>
+                    </div>
+                    <div class="risk-card risk-card--medium">
+                        <h3 class="risk-card__title">Medium Risk</h3>
+                        <div class="risk-card__multipliers">
+                            <span>2x - 5x</span>
+                        </div>
+                        <p class="risk-card__description">Balanced between win frequency and multiplier size</p>
+                    </div>
+                    <div class="risk-card risk-card--high">
+                        <h3 class="risk-card__title">High Risk</h3>
+                        <div class="risk-card__multipliers">
+                            <span>5x - 100x</span>
+                        </div>
+                        <p class="risk-card__description">Less frequent wins but higher potential multipliers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="game-stat">
+                        <span class="game-stat__number" data-end="16">0</span>
+                        <span class="game-stat__label">Rows of Pins</span>
+                    </div>
+                    <div class="game-stat">
+                        <span class="game-stat__number" data-end="100">0</span>
+                        <span class="game-stat__label">Max Multiplier</span>
+                    </div>
+                    <div class="game-stat">
+                        <span class="game-stat__number" data-end="8">0</span>
+                        <span class="game-stat__label">Landing Spots</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recent-wins">
+            <div class="container">
+                <h2 class="section-title">Recent Big Wins</h2>
+                <div class="wins-table">
+                    <div class="wins-table__header">
+                        <span>Player</span>
+                        <span>Bet</span>
+                        <span>Multiplier</span>
+                        <span>Win Amount</span>
+                    </div>
+                    <div class="wins-table__row">
+                        <span class="wins-table__player">Sarah K.</span>
+                        <span class="wins-table__bet">500 P</span>
+                        <span class="wins-table__multiplier">25x</span>
+                        <span class="wins-table__win">12,500 P</span>
+                    </div>
+                    <div class="wins-table__row">
+                        <span class="wins-table__player">Mark L.</span>
+                        <span class="wins-table__bet">2,000 P</span>
+                        <span class="wins-table__multiplier">50x</span>
+                        <span class="wins-table__win">100,000 P</span>
+                    </div>
+                    <div class="wins-table__row">
+                        <span class="wins-table__player">Lisa R.</span>
+                        <span class="wins-table__bet">1,000 P</span>
+                        <span class="wins-table__multiplier">30x</span>
+                        <span class="wins-table__win">30,000 P</span>
+                    </div>
+                    <div class="wins-table__row">
+                        <span class="wins-table__player">Tom H.</span>
+                        <span class="wins-table__bet">5,000 P</span>
+                        <span class="wins-table__multiplier">15x</span>
+                        <span class="wins-table__win">75,000 P</span>
+                    </div>
+                    <div class="wins-table__row">
+                        <span class="wins-table__player">Anna P.</span>
+                        <span class="wins-table__bet">3,000 P</span>
+                        <span class="wins-table__multiplier">40x</span>
+                        <span class="wins-table__win">120,000 P</span>
+                    </div>
+                    <div class="wins-table__row">
+                        <span class="wins-table__player">Chris M.</span>
+                        <span class="wins-table__bet">10,000 P</span>
+                        <span class="wins-table__multiplier">20x</span>
+                        <span class="wins-table__win">200,000 P</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="download" id="download">
+            <div class="container">
+                <div class="download__content">
+                    <h2 class="section-title">Download Our App</h2>
+                    <p class="section-subtitle">Play Plinko anytime, anywhere!</p>
+                    <div class="download__buttons">
+                        <a href="contact.html" class="btn btn--primary">Download for Android</a>
+                        <a href="contact.html" class="btn btn--secondary">Download for iOS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__info">
+            <a href="index.html" class="footer__logo">
+              <span style="color: #fff;" class="header__logo-text">FantasyHotPro</span>
+            </a>
+            <p class="footer__description">Your ultimate destination for fantasy sports gaming. Join us and experience the thrill of competitive gaming.</p>
+            <div class="footer__certifications">
+              <a href="https://www.gamcare.org.uk/" target="_blank" class="footer__cert-link">
+                <img src="img/6.png" alt="Gamecare Certified" class="footer__cert-img">
+              </a>
+              <img src="img/18.png" alt="18+ Only" class="footer__cert-img">
+            </div>
+          </div>
+          <div class="footer__links">
+            <div class="footer__column">
+              <h3 class="footer__title">Quick Links</h3>
+              <ul class="footer__menu">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Support</h3>
+              <ul class="footer__menu">
+                
+                <li><a href="terms-conditions.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Connect</h3>
+              <ul class="footer__social">
+                <li><a href="contact.html" class="social-icon social-icon--facebook">Facebook</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--twitter">Twitter</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--instagram">Instagram</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--youtube">YouTube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__disclaimer">
+          <p>The games offered by us involve elements of financial risk and may be addictive. Please play responsibly and at your own risk.</p>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">&copy; 2024 Fantasy Hot Pro. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html> 

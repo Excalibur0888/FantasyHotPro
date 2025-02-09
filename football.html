@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Football - Fantasy Hot Pro</title>
+    <meta name="description" content="Join Fantasy Hot Pro's Fantasy Football games. Create your ultimate team, compete in tournaments, and win exciting prizes. Experience the thrill of fantasy football!">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__content">
+				<a href="index.html" class="header__logo">
+					
+					<span class="header__logo-text">FantasyHotPro</span>
+				</a>
+
+				<button class="header__burger" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+
+				<nav class="header__nav">
+					<ul class="header__menu">
+						<li><a href="index.html" class="header__link">Home</a></li>
+						<li><a href="about.html" class="header__link">About Us</a></li>
+						<li class="header__dropdown">
+							<a href="javascript:void(0)" class="header__link">Fantasy Games</a>
+							<ul class="header__submenu">
+								<li><a href="cricket.html">Fantasy Cricket</a></li>
+								<li><a href="basketball.html">Fantasy Basketball</a></li>
+								<li><a href="football.html">Fantasy Football</a></li>
+								<li><a href="kabaddi.html">Fantasy Kabaddi</a></li>
+								<li><a href="aviator.html">Fantasy Aviator</a></li>
+								<li><a href="plinko.html">Fantasy Plinko</a></li>
+								<li><a href="laser247.html">Fantasy Laser247</a></li>
+								<li><a href="101f.html">Fantasy 101f</a></li>
+							</ul>
+						</li>
+						<li><a href="blog.html" class="header__link">Blog</a></li>
+						<li><a href="contact.html" class="header__link">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+    <main>
+        <section class="game-hero game-hero--football">
+            <div class="container">
+                <div class="game-hero__content">
+                    <h1 class="game-hero__title">Fantasy Football</h1>
+                    <p class="game-hero__subtitle">Create your dream football team and compete in global tournaments</p>
+                    <div class="game-hero__buttons">
+                        <a href="contact.html" class="btn btn--primary">Join Tournament</a>
+                        <a href="about.html" class="btn btn--secondary">About us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-features" id="features">
+            <div class="container">
+                <h2 class="section-title">Why Play Fantasy Football</h2>
+                <div class="game-features__grid">
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <img src="img/icons/live-scoring.svg" alt="Live Scoring">
+                        </div>
+                        <h3 class="feature-card__title">Live Match Updates</h3>
+                        <p class="feature-card__text">Get real-time updates and live scoring for all matches in your tournaments</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <img src="img/icons/analytics.svg" alt="Advanced Analytics">
+                        </div>
+                        <h3 class="feature-card__title">Player Statistics</h3>
+                        <p class="feature-card__text">Access comprehensive player stats and performance analytics to build winning teams</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <img src="img/icons/prizes.svg" alt="Daily Prizes">
+                        </div>
+                        <h3 class="feature-card__title">Weekly Rewards</h3>
+                        <p class="feature-card__text">Compete for exciting weekly prizes in various tournament formats</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tournaments" id="tournaments">
+            <div class="container">
+                <h2 class="section-title">Active Tournaments</h2>
+                <div class="tournaments__grid">
+                    <div class="tournament-card" data-category="league">
+                        <div class="tournament-card__header">
+                            <h3 class="tournament-card__title">Premier League Special</h3>
+                            <div class="tournament-card__prize">
+                                <img src="img/icons/points.svg" alt="Points" class="tournament-card__prize-icon">
+                                <span class="tournament-card__prize-amount">50,000 P</span>
+                            </div>
+                        </div>
+                        <div class="tournament-card__content">
+                            <div class="tournament-card__info">
+                                <div class="tournament-card__info-item">
+                                    <img src="img/icons/ticket.svg" alt="Entry" class="tournament-card__info-icon">
+                                    <span>Entry: 1,000 P</span>
+                                </div>
+                                <div class="tournament-card__info-item">
+                                    <img src="img/icons/users.svg" alt="Teams" class="tournament-card__info-icon">
+                                    <span>Teams: 50</span>
+                                </div>
+                            </div>
+                            <div class="tournament-card__progress">
+                                <div class="progress-bar">
+                                    <div class="progress-bar__fill" data-progress="60"></div>
+                                </div>
+                                <span class="tournament-card__spots" data-spots="20">20 spots left</span>
+                            </div>
+                            <a href="contact.html"><button class="btn btn--primary tournament-card__btn">Join Tournament</button></a>
+                        </div>
+                    </div>
+
+                    <div class="tournament-card" data-category="league">
+                        <div class="tournament-card__header">
+                            <h3 class="tournament-card__title">Champions League Cup</h3>
+                            <div class="tournament-card__prize">
+                                <img src="img/icons/points.svg" alt="Points" class="tournament-card__prize-icon">
+                                <span class="tournament-card__prize-amount">100,000 P</span>
+                            </div>
+                        </div>
+                        <div class="tournament-card__content">
+                            <div class="tournament-card__info">
+                                <div class="tournament-card__info-item">
+                                    <img src="img/icons/ticket.svg" alt="Entry" class="tournament-card__info-icon">
+                                    <span>Entry: 2,000 P</span>
+                                </div>
+                                <div class="tournament-card__info-item">
+                                    <img src="img/icons/users.svg" alt="Teams" class="tournament-card__info-icon">
+                                    <span>Teams: 200</span>
+                                </div>
+                            </div>
+                            <div class="tournament-card__progress">
+                                <div class="progress-bar">
+                                    <div class="progress-bar__fill" data-progress="40"></div>
+                                </div>
+                                <span class="tournament-card__spots" data-spots="120">120 spots left</span>
+                            </div>
+                            <a href="contact.html"><button class="btn btn--primary tournament-card__btn">Join Tournament</button></a>
+                        </div>
+                    </div>
+
+                    <div class="tournament-card" data-category="daily">
+                        <div class="tournament-card__header">
+                            <h3 class="tournament-card__title">Daily Football Showdown</h3>
+                            <div class="tournament-card__prize">
+                                <img src="img/icons/points.svg" alt="Points" class="tournament-card__prize-icon">
+                                <span class="tournament-card__prize-amount">25,000 P</span>
+                            </div>
+                        </div>
+                        <div class="tournament-card__content">
+                            <div class="tournament-card__info">
+                                <div class="tournament-card__info-item">
+                                    <img src="img/icons/ticket.svg" alt="Entry" class="tournament-card__info-icon">
+                                    <span>Entry: 500 P</span>
+                                </div>
+                                <div class="tournament-card__info-item">
+                                    <img src="img/icons/users.svg" alt="Teams" class="tournament-card__info-icon">
+                                    <span>Teams: 100</span>
+                                </div>
+                            </div>
+                            <div class="tournament-card__progress">
+                                <div class="progress-bar">
+                                    <div class="progress-bar__fill" data-progress="75"></div>
+                                </div>
+                                <span class="tournament-card__spots" data-spots="25">25 spots left</span>
+                            </div>
+                            <a href="contact.html"><button class="btn btn--primary tournament-card__btn">Join Tournament</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="leaderboard" id="leaderboard">
+            <div class="container">
+                <h2 class="section-title">Premier League Fantasy Elite</h2>
+                <div class="leaderboard__table">
+                    <div class="leaderboard__header">
+                        <span>Rank</span>
+                        <span>Manager</span>
+                        <span>GW Points</span>
+                        <span>Total Earnings</span>
+                    </div>
+                    <div class="leaderboard__row">
+                        <span class="leaderboard__rank">1</span>
+                        <span class="leaderboard__player">Tactical Genius</span>
+                        <span class="leaderboard__points">108</span>
+                        <span class="leaderboard__winnings">400,000 P</span>
+                    </div>
+                    <div class="leaderboard__row">
+                        <span class="leaderboard__rank">2</span>
+                        <span class="leaderboard__player">Top Striker</span>
+                        <span class="leaderboard__points">102</span>
+                        <span class="leaderboard__winnings">300,000 P</span>
+                    </div>
+                    <div class="leaderboard__row">
+                        <span class="leaderboard__rank">3</span>
+                        <span class="leaderboard__player">Goal Machine</span>
+                        <span class="leaderboard__points">98</span>
+                        <span class="leaderboard__winnings">200,000 P</span>
+                    </div>
+                    <div class="leaderboard__row">
+                        <span class="leaderboard__rank">4</span>
+                        <span class="leaderboard__player">Clean Sheet</span>
+                        <span class="leaderboard__points">95</span>
+                        <span class="leaderboard__winnings">150,000 P</span>
+                    </div>
+                    <div class="leaderboard__row">
+                        <span class="leaderboard__rank">5</span>
+                        <span class="leaderboard__player">Hat Trick Hero</span>
+                        <span class="leaderboard__points">92</span>
+                        <span class="leaderboard__winnings">100,000 P</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="game-stat">
+                        <span class="game-stat__number" data-end="38">0</span>
+                        <span class="game-stat__label">Gameweeks</span>
+                    </div>
+                    <div class="game-stat">
+                        <span class="game-stat__number" data-end="380">0</span>
+                        <span class="game-stat__label">Total Matches</span>
+                    </div>
+                    <div class="game-stat">
+                        <span class="game-stat__number" data-end="20">0</span>
+                        <span class="game-stat__label">Teams</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="download" id="download">
+            <div class="container">
+                <div class="download__content">
+                    <h2 class="section-title">Take Football With You</h2>
+                    <p class="section-subtitle">Never miss a match with our mobile app</p>
+                    <div class="download__buttons">
+                        <a href="contact.html" class="btn btn--primary">Get for Android</a>
+                        <a href="contact.html" class="btn btn--secondary">Download on iOS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__info">
+            <a href="index.html" class="footer__logo">
+              <span style="color: #fff;" class="header__logo-text">FantasyHotPro</span>
+            </a>
+            <p class="footer__description">Your ultimate destination for fantasy sports gaming. Join us and experience the thrill of competitive gaming.</p>
+            <div class="footer__certifications">
+              <a href="https://www.gamcare.org.uk/" target="_blank" class="footer__cert-link">
+                <img src="img/6.png" alt="Gamecare Certified" class="footer__cert-img">
+              </a>
+              <img src="img/18.png" alt="18+ Only" class="footer__cert-img">
+            </div>
+          </div>
+          <div class="footer__links">
+            <div class="footer__column">
+              <h3 class="footer__title">Quick Links</h3>
+              <ul class="footer__menu">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Support</h3>
+              <ul class="footer__menu">
+                
+                <li><a href="terms-conditions.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Connect</h3>
+              <ul class="footer__social">
+                <li><a href="contact.html" class="social-icon social-icon--facebook">Facebook</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--twitter">Twitter</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--instagram">Instagram</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--youtube">YouTube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__disclaimer">
+          <p>The games offered by us involve elements of financial risk and may be addictive. Please play responsibly and at your own risk.</p>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">&copy; 2024 Fantasy Hot Pro. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html> 

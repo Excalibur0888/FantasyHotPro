@@ -4,71 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Index Page -->
-    <title>Fantasy Hot Pro - Home</title>
-    <meta name="description" content="Welcome to Fantasy Hot Pro! Explore a world of exciting fantasy games and enjoy a unique entertainment experience.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Fantasy Hot Pro - Your Ultimate Fantasy Sports Platform</title>
+    <meta name="description" content="Join Fantasy Hot Pro for the ultimate fantasy sports experience. Play fantasy cricket, football, basketball and more with players worldwide.">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
   </head>
   <body>
+    <!-- Age Verification Modal -->
+    <div class="age-verification-modal" id="ageVerificationModal">
+      <div class="modal-content">
+        <h2>Age Verification</h2>
+        <p>You must be at least 18 years old to access this website. Are you over 18?</p>
+        <div class="modal-buttons">
+          <button class="modal-button yes" id="confirmAge">Yes, I am 18+</button>
+          <button class="modal-button no" id="rejectAge">No, I am under 18</button>
+        </div>
+      </div>
+    </div>
+    <!-- Header Section -->
     <header class="header">
-      <div class="wrapper">
+      <div class="container">
         <div class="header__content">
           <a href="index.html" class="header__logo">
-            <div class="header__logo">
-              <img src="img/logo.png" alt="FantasyHotPro Logo" class="logo header__logo">
-              <p class="header__logo-text">FantasyHotPro</p>
-            </div>
+            
+            <span class="header__logo-text">FantasyHotPro</span>
           </a>
 
-          <button class="burger" aria-label="Toggle navigation">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
+          <button class="header__burger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
 
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="index.html" class="nav__link">Home</a>
-              </li>
-              <li class="nav__item">
-                <a href="about.html" class="nav__link">About Us</a>
-              </li>
-              <li class="nav__item nav__item--dropdown">
-                <a href="games.html" class="nav__link">Fantasy Games</a>
-                <ul class="nav__dropdown">
-                  <li>
-                    <a href="gamecricket.html" class="nav__link">Fantasy Cricket</a>
-                  </li>
-                  <li>
-                    <a href="gamebasketball.html" class="nav__link">Fantasy Basketball</a>
-                  </li>
-                  <li>
-                    <a href="gamefootball.html" class="nav__link">Fantasy Football</a>
-                  </li>
-									<li>
-										<a href="gamekabaddi.html" class="nav__link">Fantasy Kabaddi</a>
-									</li>
-                  <li>
-                    <a href="gameaviator.html" class="nav__link">Fantasy Aviator</a>
-                  </li>
-                  <li>
-                    <a href="gameplinko.html" class="nav__link">Fantasy Plinko</a>
-                  </li>
-                  <li>
-                    <a href="gamelaser247.html" class="nav__link">Fantasy Laser247</a>
-                  </li>
-                  <li>
-                    <a href="game101f.html" class="nav__link">Fantasy 101f</a>
-                  </li>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li><a href="index.html" class="header__link header__link--active">Home</a></li>
+              <li><a href="about.html" class="header__link">About Us</a></li>
+              <li class="header__dropdown">
+                <a href="javascript:void(0)" class="header__link">Fantasy Games</a>
+                <ul class="header__submenu">
+                  <li><a href="cricket.html">Fantasy Cricket</a></li>
+                  <li><a href="basketball.html">Fantasy Basketball</a></li>
+                  <li><a href="football.html">Fantasy Football</a></li>
+                  <li><a href="kabaddi.html">Fantasy Kabaddi</a></li>
+                  <li><a href="aviator.html">Fantasy Aviator</a></li>
+                  <li><a href="plinko.html">Fantasy Plinko</a></li>
+                  <li><a href="laser247.html">Fantasy Laser247</a></li>
+                  <li><a href="101f.html">Fantasy 101f</a></li>
                 </ul>
               </li>
-              <li class="nav__item">
-                <a href="blog.html" class="nav__link">Blog</a>
-              </li>
-              <li class="nav__item">
-                <a href="contact.html" class="nav__link">Contact</a>
-              </li>
+              <li><a href="blog.html" class="header__link">Blog</a></li>
+              <li><a href="contact.html" class="header__link">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -76,431 +63,357 @@
     </header>
 
     <main>
+      <!-- Hero Section -->
       <section class="hero">
-        <div class="hero__background">
-          <img src="img/img1.jpg" alt="Fantasy Sports Background" class="hero__bg-image">
+        <div class="hero__bg">
           <div class="hero__overlay"></div>
         </div>
-        <div class="wrapper">
+        <div class="container">
           <div class="hero__content">
             <div class="hero__text">
-              <h1 class="hero__title">Welcome to Fantasy Hot</h1>
-              <p class="hero__description">
-                Step into the ultimate fantasy sports arena where your passion
-                meets strategy. Whether you're a cricket fanatic, a basketball
-                enthusiast, or a football strategist, Fantasy Hot offers a
-                platform to showcase your skills. Compete with players across
-                India and turn your sports knowledge into victories!
-              </p>
-              <a href="contact.html" class="hero__button">download now</a>
+              <h1 class="hero__title">Experience the Future of Fantasy Sports</h1>
+              <p class="hero__subtitle">Join millions of players worldwide in the most immersive fantasy sports platform. Create your dream team, compete in real-time, and win big!</p>
+              <div class="hero__cta">
+                <a href="contact.html" class="btn btn--primary">Get Started</a>
+                <a href="#learn" class="btn btn--secondary">Learn More</a>
+              </div>
             </div>
-            <div class="hero__image">
-              <img src="img/img2.jpg" alt="Fantasy Sports Illustration" class="hero__img">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="universal-section">
-        <div class="wrapper">
-          <h2 class="section-heading">Welcome to Fantasy Hot!</h2>
-          <div class="section-content">
-            <div class="images-grid">
-              <img src="img/img102.jpg" alt="Fantasy Image 1">
-              <img src="img/img103.jpg" alt="Fantasy Image 2">
-              <img src="img/img104.jpg" alt="Fantasy Image 3">
-              <img src="img/img105.jpg" alt="Fantasy Image 4">
-            </div>
-            <div class="section-text">
-              <h3 class="text-heading">Why Fantasy Hot is the Best</h3>
-              <p class="text-description">
-                You may have an unparalleled fantasy sports experience with
-                Fantasy Hot. Create the squad of your dreams, watch live games,
-                and take on gamers from all across the country. Our platform
-                provides limitless excitement and chances to demonstrate your
-                expertise, regardless of your level of experience. Every minute
-                is exciting with Fantasy Hot's user-friendly layout, real-time
-                updates, and selection of sports. Explore fantasy sports like
-                football, basketball, cricket, and more, where your choices
-                affect the outcome of the match. Come along and feel the
-                excitement of using your sports expertise to win while
-                interacting with a lively fan base. You are in control of the
-                game at Fantasy Hot—play wisely, play fairly, and play to win!
-              </p>
+            <div class="hero__stats">
+              <div class="stat-card">
+                <span class="stat-card__number">1M+</span>
+                <span class="stat-card__label">Active Players</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-card__number">8+</span>
+                <span class="stat-card__label">Fantasy Games</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-card__number">24/7</span>
+                <span class="stat-card__label">Live Support</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- Features Section -->
+      <section class="features" id="learn">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Why Choose Fantasy Hot Pro</h2>
+            <p class="section-subtitle">Experience the most advanced features in fantasy sports gaming</p>
+          </div>
+          <div class="features__grid">
+            <div class="feature-card">
+              <div class="feature-card__icon">
+                <img src="img/icons/real-time.svg" alt="Real-time Updates">
+              </div>
+              <h3 class="feature-card__title">Real-time Updates</h3>
+              <p class="feature-card__text">Get instant score updates and live match statistics</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-card__icon">
+                <img src="img/icons/secure.svg" alt="Secure Platform">
+              </div>
+              <h3 class="feature-card__title">Secure Platform</h3>
+              <p class="feature-card__text">Advanced security measures to protect your data and transactions</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-card__icon">
+                <img src="img/icons/rewards.svg" alt="Daily Rewards">
+              </div>
+              <h3 class="feature-card__title">Daily Rewards</h3>
+              <p class="feature-card__text">Win exciting prizes and rewards every day</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Games Section -->
       <section class="games">
-        <div class="wrapper">
-          <h2 class="games__title">Explore Our Fantasy Universe</h2>
-          <p class="games__subtitle">
-            From cricket to basketball, discover a variety of fantasy sports
-            designed to challenge your strategic thinking and sports knowledge.
-          </p>
-          <div class="games__grid">
-            <!-- Card 1: Fantasy Cricket -->
-            <div class="game__card">
-              <img src="img/icon1.svg" alt="Fantasy Cricket Icon" class="game__icon">
-              <h3 class="game__name">Fantasy Cricket</h3>
-              <a href="gamecricket.html" class="game__button">Explore</a>
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Popular Games</h2>
+            <p class="section-subtitle">Choose from our wide selection of fantasy sports</p>
+          </div>
+          <div class="games__slider">
+            <div class="game-card">
+              <div class="game-card__image">
+                <img src="img/cricket.webp" alt="Fantasy Cricket">
+              </div>
+              <div class="game-card__content">
+                <h3 class="game-card__title">Fantasy Cricket</h3>
+                <p class="game-card__text">Create your dream cricket team and compete in global tournaments</p>
+                <a href="cricket.html" class="game-card__btn">Play Now</a>
+              </div>
             </div>
-
-            <!-- Card 2: Fantasy Basketball -->
-            <div class="game__card">
-              <img src="img/icon2.svg" alt="Fantasy Basketball Icon" class="game__icon">
-              <h3 class="game__name">Fantasy Basketball</h3>
-              <a href="gamebasketball.html" class="game__button">Explore</a>
+            <div class="game-card">
+              <div class="game-card__image">
+                <img src="img/football.webp" alt="Fantasy Football">
+              </div>
+              <div class="game-card__content">
+                <h3 class="game-card__title">Fantasy Football</h3>
+                <p class="game-card__text">Build your ultimate football squad and dominate the league</p>
+                <a href="football.html" class="game-card__btn">Play Now</a>
+              </div>
             </div>
-
-            <!-- Card 3: Fantasy Football -->
-            <div class="game__card">
-              <img src="img/icon3.svg" alt="Fantasy Football Icon" class="game__icon">
-              <h3 class="game__name">Fantasy Football</h3>
-              <a href="gamefootball.html" class="game__button">Explore</a>
-            </div>
-
-            <!-- Card 4: Fantasy Kabaddi -->
-            <div class="game__card">
-              <img src="img/icon8.svg" alt="Fantasy Kabaddi Icon" class="game__icon">
-              <h3 class="game__name">Fantasy Kabaddi</h3>
-              <a href="gamekabaddi.html" class="game__button">Explore</a>
-            </div>
-						
-            <!-- Card 4: Fantasy Aviator -->
-            <div class="game__card">
-              <img src="img/icon4.svg" alt="Fantasy Aviator Icon" class="game__icon">
-              <h3 class="game__name">Fantasy Aviator</h3>
-              <a href="gameaviator.html" class="game__button">Explore</a>
-            </div>
-
-            <!-- Card 5: Fantasy Plinko -->
-            <div class="game__card">
-              <img src="img/icon5.svg" alt="Fantasy Plinko Icon" class="game__icon">
-              <h3 class="game__name">Fantasy Plinko</h3>
-              <a href="gameplinko.html" class="game__button">Explore</a>
-            </div>
-
-            <!-- Card 6: Fantasy Laser247 -->
-            <div class="game__card">
-              <img src="img/icon6.svg" alt="Fantasy Laser247 Icon" class="game__icon">
-              <h3 class="game__name">Fantasy Laser247</h3>
-              <a href="gamelaser247.html" class="game__button">Explore</a>
-            </div>
-
-            <!-- Card 7: Fantasy 101f -->
-            <div class="game__card">
-              <img src="img/icon7.svg" alt="Fantasy 101f Icon" class="game__icon">
-              <h3 class="game__name">Fantasy 101f</h3>
-              <a href="game101f.html" class="game__button">Explore</a>
+            <div class="game-card">
+              <div class="game-card__image">
+                <img src="img/basketball.webp" alt="Fantasy Basketball">
+              </div>
+              <div class="game-card__content">
+                <h3 class="game-card__title">Fantasy Basketball</h3>
+                <p class="game-card__text">Select your star players and compete in basketball leagues</p>
+                <a href="basketball.html" class="game-card__btn">Play Now</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="popularity">
-        <div class="wrapper">
-          <div class="popularity__content">
-            <div class="popularity__image">
-              <img src="img/img3.jpg" alt="Fantasy Games Popularity" class="popularity__img">
+      <!-- Testimonials Section -->
+      <section class="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">What Our Users Say</h2>
+            <p class="section-subtitle">Join thousands of satisfied players worldwide</p>
+          </div>
+          <div class="testimonials__grid">
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p class="testimonial-card__text">"The best fantasy sports platform I've ever used. Amazing features and great community!"</p>
+              </div>
+              <div class="testimonial-card__author">
+                <img src="img/user1.jpg" alt="John Smith" class="testimonial-card__avatar">
+                <div class="testimonial-card__info">
+                  <h4 class="testimonial-card__name">John Smith</h4>
+                  <p class="testimonial-card__title">Mumbai, India</p>
+                </div>
+              </div>
             </div>
-            <div class="popularity__text">
-              <h2 class="popularity__title">
-                What Makes Fantasy Games So Interesting?
-              </h2>
-              <p class="popularity__description">
-                Fantasy games have captured the hearts of millions, and here's
-                why they're so irresistible:
-              </p>
-              <ul class="popularity__list">
-                <li class="popularity__item">
-                  <strong>Skill-Driven:</strong> Your success depends on your
-                  sports knowledge and strategic decisions, not luck.
-                </li>
-                <li class="popularity__item">
-                  <strong>Immersive:</strong> Experience the thrill of managing
-                  your own team and competing in real-time.
-                </li>
-                <li class="popularity__item">
-                  <strong>Community:</strong> Connect with like-minded sports
-                  enthusiasts and share your passion.
-                </li>
-                <li class="popularity__item">
-                  <strong>Versatile:</strong> Whether you're a casual player or
-                  a hardcore fan, there's something for everyone.
-                </li>
-              </ul>
-              <a href="about.html" class="popularity__button">Learn More</a>
+            <div class="testimonial-card">
+              <div class="testimonial-card__content">
+                <p class="testimonial-card__text">"Incredible platform with real-time updates and exciting rewards. Highly recommended!"</p>
+              </div>
+              <div class="testimonial-card__author">
+                <img src="img/user2.jpg" alt="Sarah Johnson" class="testimonial-card__avatar">
+                <div class="testimonial-card__info">
+                  <h4 class="testimonial-card__name">Sarah Johnson</h4>
+                  <p class="testimonial-card__title">Bangalore, India</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- Strategy Section -->
       <section class="strategy">
-        <div class="wrapper">
+        <div class="container">
           <div class="strategy__content">
-            <h2 class="strategy__title">Where Strategy Meets Sports</h2>
-            <p class="strategy__description">
-              The main goal of Fantasy Hot is to give you the confidence to act
-              appropriately. Every choice you make affects your success, from
-              choosing your squad to making modifications in real time.
-            </p>
-            <p class="strategy__description">
-              Forget luck—our games are designed to reward your knowledge,
-              analysis, and strategic thinking. It's time to prove your mettle
-              and rise to the top!
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="skill-based">
-        <div class="wrapper">
-          <div class="skill-based__content">
-            <div class="skill-based__text">
-              <h2 class="skill-based__title">Strategy Wins the Game</h2>
-              <p class="skill-based__description">
-                At Fantasy Hot, your success is determined by your ability to
-                analyze, strategize, and make smart decisions. No luck, no
-                randomness—just pure skill.
+            <div class="strategy__text">
+              <h2 class="section-title">Where Strategy Meets Sports</h2>
+              <p class="strategy__description">
+                The main goal of Fantasy Hot Pro is to give you the confidence to make strategic decisions. Every choice you make affects your success, from choosing your squad to making real-time modifications.
               </p>
-              <ul class="skill-based__list">
-                <li class="skill-based__item">
-                  <img src="img/icon9.svg" alt="Strategy Icon" class="skill-based__icon">
-                  <strong>Craft Your Team:</strong> Use your sports expertise to
-                  build a winning lineup.
-                </li>
-                <li class="skill-based__item">
-                  <img src="img/icon10.svg" alt="Statistics Icon" class="skill-based__icon">
-                  <strong>Real-Time Insights:</strong> Make informed decisions
-                  based on live data and player performance.
-                </li>
-                <li class="skill-based__item">
-                  <img src="img/icon11.svg" alt="Trophy Icon" class="skill-based__icon">
-                  <strong>Outplay the Rest:</strong> Your victory is a testament
-                  to your skills and strategy.
-                </li>
-              </ul>
-              <a href="games.html" class="skill-based__button">Join Now</a>
+              <div class="strategy__features">
+                <div class="strategy__feature">
+                  <div class="strategy__feature-icon">
+                    <img src="img/icons/strategy.svg" alt="Strategy Icon">
+                  </div>
+                  <div class="strategy__feature-content">
+                    <h3>Strategic Gameplay</h3>
+                    <p>Use your sports knowledge and analytical skills to create winning strategies</p>
+                  </div>
+                </div>
+                <div class="strategy__feature">
+                  <div class="strategy__feature-icon">
+                    <img src="img/icons/analytics.svg" alt="Analytics Icon">
+                  </div>
+                  <div class="strategy__feature-content">
+                    <h3>Advanced Analytics</h3>
+                    <p>Access detailed statistics and performance metrics to make informed decisions</p>
+                  </div>
+                </div>
+                <div class="strategy__feature">
+                  <div class="strategy__feature-icon">
+                    <img src="img/icons/competition.svg" alt="Competition Icon">
+                  </div>
+                  <div class="strategy__feature-content">
+                    <h3>Competitive Environment</h3>
+                    <p>Compete against skilled players and prove your expertise</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="skill-based__image">
-              <img src="img/img4.jpg" alt="Skill-Based Fantasy Game" class="skill-based__img">
+            <div class="strategy__image">
+              <img src="img/strategy.jpg" alt="Strategic Gaming">
             </div>
           </div>
         </div>
       </section>
 
-      <section class="slider-container">
-        <h2 class="slider-title">Hear From Our Players</h2>
-        <div class="slider">
-          <!-- Отзыв 1 (Мужчина) -->
-          <div class="slide">
-            <img src="img/portrait1.jpg" alt="Rahul Mehta" class="avatar">
-            <span class="slide-name">Niraj Oak</span>
-            <span class="slide-location">Mumbai, India</span>
-            <p>
-              "Fantasy Hot has completely changed how I enjoy sports. The
-              platform is smooth, and the strategic depth keeps me engaged!"
-            </p>
+      <!-- Benefits Section -->
+      <section class="benefits">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Why Players Choose Us</h2>
+            <p class="section-subtitle">Experience the advantages that make us the leading fantasy sports platform</p>
           </div>
-
-          <!-- Отзыв 2 (Женщина) -->
-          <div class="slide">
-            <img src="img/portrait2.jpg" alt="Priya Shah" class="avatar">
-            <span class="slide-name">Anika Krishna</span>
-            <span class="slide-location">Delhi, India</span>
-            <p>
-              "I love how Fantasy Hot combines sports and strategy. It's so much
-              fun to play and compete with others!"
-            </p>
-          </div>
-
-          <!-- Отзыв 3 (Мужчина) -->
-          <div class="slide">
-            <img src="img/portrait3.jpg" alt="Vikram Singh" class="avatar">
-            <span class="slide-name">Shantanu Daveh</span>
-            <span class="slide-location">Bangalore, India</span>
-            <p>
-              "Fantasy Hot is my go-to app for fantasy sports. The interface is
-              clean, and the features are top-notch."
-            </p>
-          </div>
-
-          <!-- Отзыв 4 (Женщина) -->
-          <div class="slide">
-            <img src="img/portrait4.jpg" alt="Anjali Rao" class="avatar">
-            <span class="slide-name">Bhuvana Thaman</span>
-            <span class="slide-location">Hyderabad, India</span>
-            <p>
-              "Fantasy Hot makes fantasy cricket so engaging. The live updates
-              and stats are fantastic!"
-            </p>
-          </div>
-
-          <!-- Отзыв 5 (Мужчина) -->
-          <div class="slide">
-            <img src="img/portrait5.jpg" alt="Arjun Patel" class="avatar">
-            <span class="slide-name">Advaith Murty</span>
-            <span class="slide-location">Pune, India</span>
-            <p>
-              "The variety of sports on Fantasy Hot is incredible. I enjoy
-              switching between cricket and football!"
-            </p>
-          </div>
-
-          <!-- Отзыв 6 (Женщина) -->
-          <div class="slide">
-            <img src="img/portrait6.jpg" alt="Neha Gupta" class="avatar">
-            <span class="slide-name">Chanda Memon</span>
-            <span class="slide-location">Kolkata, India</span>
-            <p>
-              "Fantasy Hot is so easy to use, and the community is amazing. I've
-              made so many friends here!"
-            </p>
-          </div>
-
-          <!-- Отзыв 7 (Мужчина) -->
-          <div class="slide">
-            <img src="img/portrait7.jpg" alt="Rohan Desai" class="avatar">
-            <span class="slide-name">Rohan Desai</span>
-            <span class="slide-location">Chennai, India</span>
-            <p>
-              "The real-time updates on Fantasy Hot are a game-changer. It feels
-              like I'm part of the action!"
-            </p>
-          </div>
-
-          <!-- Отзыв 8 (Женщина) -->
-          <div class="slide">
-            <img src="img/portrait8.jpg" alt="Sneha Reddy" class="avatar">
-            <span class="slide-name">Sneha Reddy</span>
-            <span class="slide-location">Ahmedabad, India</span>
-            <p>
-              "Fantasy Hot has made me a better strategist. I love the challenge
-              of building the perfect team!"
-            </p>
-          </div>
-
-          <!-- Отзыв 9 (Мужчина) -->
-          <div class="slide">
-            <img src="img/portrait9.jpg" alt="Karan Malhotra" class="avatar">
-            <span class="slide-name">Karan Malhotra</span>
-            <span class="slide-location">Jaipur, India</span>
-            <p>
-              "Fantasy Hot is the best platform for fantasy sports. The rewards
-              and competitions are fantastic!"
-            </p>
-          </div>
-
-          <!-- Отзыв 10 (Женщина) -->
-          <div class="slide">
-            <img src="img/portrait10.jpg" alt="Ananya Sharma" class="avatar">
-            <span class="slide-name">Ananya Sharma</span>
-            <span class="slide-location">Surat, India</span>
-            <p>
-              "I love how Fantasy Hot keeps me connected to my favorite sports.
-              It's so much fun!"
-            </p>
-          </div>
-
-          <!-- Отзыв 11 (Мужчина) -->
-          <div class="slide">
-            <img src="img/portrait11.jpg" alt="Vivek Iyer" class="avatar">
-            <span class="slide-name">Vivek Iyer</span>
-            <span class="slide-location">Lucknow, India</span>
-            <p>
-              "Fantasy Hot is my favorite way to enjoy sports. The strategy
-              aspect is so rewarding!"
-            </p>
-          </div>
-
-          <!-- Отзыв 12 (Женщина) -->
-          <div class="slide">
-            <img src="img/portrait12.jpg" alt="Meera Joshi" class="avatar">
-            <span class="slide-name">Meera Joshi</span>
-            <span class="slide-location">Nagpur, India</span>
-            <p>
-              "Fantasy Hot has made me a more passionate sports fan. I love the
-              competitive edge it brings!"
-            </p>
+          <div class="benefits__grid">
+            <div class="benefit-card">
+              <div class="benefit-card__icon">
+                <img src="img/icons/fair-play.svg" alt="Fair Play">
+              </div>
+              <h3>Fair Play Guaranteed</h3>
+              <p>Our platform ensures fair competition with advanced security measures and strict monitoring</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-card__icon">
+                <img src="img/icons/support.svg" alt="24/7 Support">
+              </div>
+              <h3>24/7 Customer Support</h3>
+              <p>Get assistance anytime with our dedicated support team ready to help</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-card__icon">
+                <img src="img/icons/rewards.svg" alt="Regular Rewards">
+              </div>
+              <h3>Regular Rewards</h3>
+              <p>Earn points, unlock achievements, and receive special bonuses</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-card__icon">
+                <img src="img/icons/community.svg" alt="Active Community">
+              </div>
+              <h3>Active Community</h3>
+              <p>Join a vibrant community of fantasy sports enthusiasts</p>
+            </div>
           </div>
         </div>
-        <button class="prev slider-btn" style="display: none">&#10094;</button>
-        <button class="next slider-btn" style="display: none">&#10095;</button>
       </section>
 
+      <!-- How It Works Section -->
+      <section class="how-it-works">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Start your fantasy sports journey in three simple steps</p>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <div class="step__number">1</div>
+              <h3 class="step__title">Create Your Account</h3>
+              <p class="step__description">Sign up in minutes and verify your account to get started</p>
+            </div>
+            <div class="step">
+              <div class="step__number">2</div>
+              <h3 class="step__title">Build Your Team</h3>
+              <p class="step__description">Select players and create your dream team using your knowledge</p>
+            </div>
+            <div class="step">
+              <div class="step__number">3</div>
+              <h3 class="step__title">Compete & Win</h3>
+              <p class="step__description">Join contests, compete with others, and win exciting prizes</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="stats">
+        <div class="container">
+          <div class="stats__grid">
+            <div class="stat-block">
+              <div class="stat-block__number">1M+</div>
+              <div class="stat-block__label">Active Users</div>
+            </div>
+            <div class="stat-block">
+              <div class="stat-block__number">500K+</div>
+              <div class="stat-block__label">Points Won</div>
+            </div>
+            <div class="stat-block">
+              <div class="stat-block__number">100K+</div>
+              <div class="stat-block__label">Daily Contests</div>
+            </div>
+            <div class="stat-block">
+              <div class="stat-block__number">4.8/5</div>
+              <div class="stat-block__label">User Rating</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
       <section class="cta">
-        <div class="wrapper">
+        <div class="container">
           <div class="cta__content">
-            <h2 class="cta__title">Got Questions? We've Got Answers!</h2>
-            <p class="cta__description">
-              If you need help or have any questions, our support team is just a
-              click away. We're here to assist you!
-            </p>
-            <a href="contact.html" class="cta__button">Get in Touch</a>
+            <h2 class="cta__title">Ready to Start Your Journey?</h2>
+            <p class="cta__description">Join millions of players and experience the thrill of fantasy sports gaming</p>
+            <div class="cta__buttons">
+              <a href="contact.html" class="btn btn--primary">Download Now</a>
+              <a href="contact.html" class="btn btn--secondary">Contact Us</a>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <!-- Age Verification Modal -->
-    <div class="age-modal" id="ageModal">
-      <div class="age-modal__content">
-        <img src="img/logo.png" alt="FantasyHotPro Logo" class="age-modal__logo">
-        <h2 class="age-modal__title">Age Verification</h2>
-        <p class="age-modal__text">You must be 18 years or older to access this site.</p>
-        <div class="age-modal__buttons">
-          <button class="age-modal__button age-modal__button--confirm" id="ageConfirm">I am 18 or older</button>
-          <button class="age-modal__button age-modal__button--deny" id="ageDeny">I am under 18</button>
-        </div>
-      </div>
-    </div>
-
+    <!-- Footer Section -->
     <footer class="footer">
-      <div class="footer__disclaimer">
-        <div class="wrapper">
-          <h5>Disclaimer</h5>
-          <p>
-            The games offered by us involve elements of financial risk and at
-            times may be addictive. We therefore encourage our players to keep
-            it fun and participate responsibly and at your own risk.
-          </p>
-        </div>
-      </div>
-      <div class="wrapper">
+      <div class="container">
         <div class="footer__content">
-          <div class="footer__column">
-            <div class="footer__title">Our contacts</div>
-            <a href="tel:+919714576243" class="footer__element">+919714576243</a>
-            <a href="mailto:contact@fantasyhotpro.com" class="footer__element">
-									contact@fantasyhotpro.com
-								</a>
+          <div class="footer__info">
+            <a href="index.html" class="footer__logo">
+              <span style="color: #fff;" class="header__logo-text">FantasyHotPro</span>
+            </a>
+            <p class="footer__description">Your ultimate destination for fantasy sports gaming. Join us and experience the thrill of competitive gaming.</p>
+            <div class="footer__certifications">
+              <a href="https://www.gamcare.org.uk/" target="_blank" class="footer__cert-link">
+                <img src="img/6.png" alt="Gamecare Certified" class="footer__cert-img">
+              </a>
+              <img src="img/18.png" alt="18+ Only" class="footer__cert-img">
+            </div>
           </div>
-
-          <div class="footer__column" style="align-items: center">
-            <div class="footer__title">Links</div>
-            <a href="index.html" class="footer__element">Home</a>
-            <a href="about.html" class="footer__element">About</a>
-            <a href="games.html" class="footer__element">Fantasy games</a>
-            <a href="blog.html" class="footer__element">Blog</a>
-            <a href="contact.html" class="footer__element">Contact</a>
-          </div>
-          <div class="footer__column" style="align-items: end">
-            <div class="footer__title">Utility Pages</div>
-            <a href="privacy-policy.html" class="footer__element">Privacy Policy</a>
-            <a href="terms-conditions.html" class="footer__element">Terms of Use</a>
+          <div class="footer__links">
+            <div class="footer__column">
+              <h3 class="footer__title">Quick Links</h3>
+              <ul class="footer__menu">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Support</h3>
+              <ul class="footer__menu">
+                
+                <li><a href="terms-conditions.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Connect</h3>
+              <ul class="footer__social">
+                <li><a href="contact.html" class="social-icon social-icon--facebook">Facebook</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--twitter">Twitter</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--instagram">Instagram</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--youtube">YouTube</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="footer__req">
-          <a href="https://www.gamcare.org.uk/" target="_blank"><img src="img/beg.png" alt="begamble" class="footer__begamble"></a>
-          <img src="img/18.png" alt="18+" class="footer__age">
+        <div class="footer__disclaimer">
+          <p>The games offered by us involve elements of financial risk and may be addictive. Please play responsibly and at your own risk.</p>
         </div>
-        <div class="footer__copy">
-          Copyright © 2025 FantasyHotPro. All Rights Reserved.
+        <div class="footer__bottom">
+          <p class="footer__copyright">&copy; 2024 Fantasy Hot Pro. All rights reserved.</p>
         </div>
       </div>
     </footer>
-		<script src="script.js"></script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

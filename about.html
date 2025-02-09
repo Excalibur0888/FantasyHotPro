@@ -4,71 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- About Page -->
-    <title>Fantasy Hot Pro - About Us</title>
-    <meta name="description" content="Learn more about Fantasy Hot Pro and our mission to provide engaging and entertaining fantasy games for everyone.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>About Us - Fantasy Hot Pro</title>
+    <meta name="description" content="Learn about Fantasy Hot Pro - your trusted platform for fantasy sports gaming. Discover our story, mission, and commitment to fair play.">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
   </head>
   <body>
     <header class="header">
-      <div class="wrapper">
+      <div class="container">
         <div class="header__content">
           <a href="index.html" class="header__logo">
-            <div class="header__logo">
-              <img src="img/logo.png" alt="FantasyHotPro Logo" class="logo header__logo">
-              <p class="header__logo-text">FantasyHotPro</p>
-            </div>
+            
+            <span class="header__logo-text">FantasyHotPro</span>
           </a>
 
-          <button class="burger" aria-label="Toggle navigation">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
+          <button class="header__burger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
 
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="index.html" class="nav__link">Home</a>
-              </li>
-              <li class="nav__item">
-                <a href="about.html" class="nav__link">About Us</a>
-              </li>
-              <li class="nav__item nav__item--dropdown">
-                <a href="games.html" class="nav__link">Fantasy Games</a>
-                <ul class="nav__dropdown">
-                  <li>
-                    <a href="gamecricket.html" class="nav__link">Fantasy Cricket</a>
-                  </li>
-                  <li>
-                    <a href="gamebasketball.html" class="nav__link">Fantasy Basketball</a>
-                  </li>
-                  <li>
-                    <a href="gamefootball.html" class="nav__link">Fantasy Football</a>
-                  </li>
-									<li>
-										<a href="gamekabaddi.html" class="nav__link">Fantasy Kabaddi</a>
-									</li>
-                  <li>
-                    <a href="gameaviator.html" class="nav__link">Fantasy Aviator</a>
-                  </li>
-                  <li>
-                    <a href="gameplinko.html" class="nav__link">Fantasy Plinko</a>
-                  </li>
-                  <li>
-                    <a href="gamelaser247.html" class="nav__link">Fantasy Laser247</a>
-                  </li>
-                  <li>
-                    <a href="game101f.html" class="nav__link">Fantasy 101f</a>
-                  </li>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li><a href="index.html" class="header__link">Home</a></li>
+              <li><a href="about.html" class="header__link header__link--active">About Us</a></li>
+              <li class="header__dropdown">
+                <a href="javascript:void(0)" class="header__link">Fantasy Games</a>
+                <ul class="header__submenu">
+                  <li><a href="cricket.html">Fantasy Cricket</a></li>
+                  <li><a href="basketball.html">Fantasy Basketball</a></li>
+                  <li><a href="football.html">Fantasy Football</a></li>
+                  <li><a href="kabaddi.html">Fantasy Kabaddi</a></li>
+                  <li><a href="aviator.html">Fantasy Aviator</a></li>
+                  <li><a href="plinko.html">Fantasy Plinko</a></li>
+                  <li><a href="laser247.html">Fantasy Laser247</a></li>
+                  <li><a href="101f.html">Fantasy 101f</a></li>
                 </ul>
               </li>
-              <li class="nav__item">
-                <a href="blog.html" class="nav__link">Blog</a>
-              </li>
-              <li class="nav__item">
-                <a href="contact.html" class="nav__link">Contact</a>
-              </li>
+              <li><a href="blog.html" class="header__link">Blog</a></li>
+              <li><a href="contact.html" class="header__link">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -76,179 +51,248 @@
     </header>
 
     <main>
-      <section class="hero-page">
-        <div class="hero-page__background">
-          <img src="img/about.jpg" alt="Dynamic Sports Scene" class="hero-page__bg-image">
-          <div class="hero-page__overlay"></div>
-        </div>
-        <div class="wrapper">
-          <div class="hero-page__content">
-            <h1 class="hero-page__title">
-              Discover the Thrill with FantasyHotPro
-            </h1>
-            <p class="hero-page__description">
-              Dive into a world of excitement and strategy where every match is
-              a new opportunity. Join millions of passionate sports fans and
-              showcase your skills in cricket, basketball, football, and more.
-              FantasyHotPro is your gateway to competing smart, winning big, and
-              having fun along the way!
-            </p>
-          </div>
-          <a href="contact.html" class="hero__button">Download app</a>
-        </div>
-      </section>
-
-      <section class="mission-section">
-        <div class="wrapper">
-          <div class="mission-section__content">
-            <h2 class="mission-section__title">Our Vision</h2>
-            <p class="mission-section__description">
-              At FantasyHotPro, we aim to revolutionize how fans engage with
-              sports. By blending passion with strategy, we provide a platform
-              that brings every game closer to your heart. From crafting dream
-              teams to enjoying the thrill of competition, our vision is to make
-              sports an unforgettable experience for all.
-            </p>
-            <p class="mission-section__description">
-              We prioritize fairness, transparency, and user satisfaction. With
-              advanced technology and a deep love for sports, FantasyHotPro
-              empowers players to excel and enjoy an unmatched fantasy sports
-              journey.
-            </p>
+      <section class="page-hero about-hero">
+        <div class="container">
+          <div class="page-hero__content">
+            <h1 class="page-hero__title">About Fantasy Hot Pro</h1>
+            <p class="page-hero__subtitle">Your trusted partner in fantasy sports gaming since 2020</p>
           </div>
         </div>
       </section>
 
-      <section class="about-section">
-        <div class="wrapper">
-          <div class="about-section__content">
-            <div class="about-section__image">
-              <img src="img/img6.jpg" alt="Explore FantasyHotPro" class="about-section__img">
+      <section class="story">
+        <div class="container">
+          <div class="story__content">
+            <div class="story__text">
+              <h2 class="section-title">Our Story</h2>
+              <p class="story__description">
+                Founded in 2020, Fantasy Hot Pro emerged from a simple idea: to create a platform where sports enthusiasts could truly engage with their favorite games. What started as a small project has grown into a thriving community of millions of players.
+              </p>
+              <p class="story__description">
+                Our journey has been marked by continuous innovation, unwavering commitment to fair play, and a deep understanding of what players want. Today, we're proud to be one of the leading fantasy sports platforms, offering a wide range of games and opportunities for players worldwide.
+              </p>
             </div>
-            <div class="about-section__text">
-              <h2 class="about-section__title">About FantasyHotPro</h2>
-              <p class="about-section__description">
-                FantasyHotPro was founded to transform the connection between fans
-                and their favorite sports. Our platform offers an engaging mix
-                of strategy and competition, catering to everyone from cricket
-                lovers to football strategists. Experience sports like never
-                before with FantasyHotPro.
-              </p>
-              <p class="about-section__description">
-                Since our journey began in India, FantasyHotPro has become
-                synonymous with innovation and excellence in fantasy sports. We
-                are proud to create an environment where every player feels
-                valued and every game becomes an adventure.
-              </p>
+            <div class="story__image">
+              <img src="img/story.jpg" alt="Fantasy Hot Pro Story">
             </div>
           </div>
         </div>
       </section>
 
-      <section class="values-section">
-        <div class="wrapper">
-          <h2 class="values-section__title">What Drives Us</h2>
-          <p class="values-section__subtitle">
-            At FantasyHotPro, our principles define who we are. They inspire us to
-            deliver excellence and build a vibrant community.
-          </p>
-          <div class="values-section__list">
-            <!-- Value 1 -->
-            <div class="value">
-              <img src="img/icon12.svg" alt="Integrity" class="value__icon">
-              <h3 class="value__title">Integrity</h3>
-              <p class="value__description">
-                We ensure a fair and honest environment for all players. Our
-                platform emphasizes skill and strategy, ensuring that every
-                player has a chance to succeed on equal footing.
-              </p>
+      <section class="mission">
+        <div class="container">
+          <div class="mission__grid">
+            <div class="mission-card">
+              <div class="mission-card__icon">
+                <img src="img/icons/mission.svg" alt="Our Mission">
+              </div>
+              <h3>Our Mission</h3>
+              <p>To provide the most engaging and fair fantasy sports experience, empowering players to showcase their knowledge and skills.</p>
             </div>
-
-            <!-- Value 2 -->
-            <div class="value">
-              <img src="img/icon13.svg" alt="Creativity" class="value__icon">
-              <h3 class="value__title">Creativity</h3>
-              <p class="value__description">
-                Creativity fuels FantasyHotPro. We innovate constantly, adding new
-                features and ideas to enrich the user experience and keep the
-                excitement alive for every sports enthusiast.
-              </p>
+            <div class="mission-card">
+              <div class="mission-card__icon">
+                <img src="img/icons/vision.svg" alt="Our Vision">
+              </div>
+              <h3>Our Vision</h3>
+              <p>To become the world's leading fantasy sports platform, known for innovation, fairness, and community engagement.</p>
             </div>
+            <div class="mission-card">
+              <div class="mission-card__icon">
+                <img src="img/icons/values.svg" alt="Our Values">
+              </div>
+              <h3>Our Values</h3>
+              <p>Integrity, transparency, innovation, and player satisfaction are at the core of everything we do.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <!-- Value 3 -->
-            <div class="value">
-              <img src="img/icon14.svg" alt="Community Spirit" class="value__icon">
-              <h3 class="value__title">Community Spirit</h3>
-              <p class="value__description">
-                FantasyHotPro is more than just a platform—it's a community. We
-                unite players who share a passion for sports, fostering
-                connections and creating moments of joy and friendly rivalry.
-              </p>
+      <section class="team">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Meet Our Team</h2>
+            <p class="section-subtitle">The passionate individuals behind Fantasy Hot Pro</p>
+          </div>
+          <div class="team__grid">
+            <div class="team-card">
+              <div class="team-card__image">
+                <img src="img/member1.jpg" alt="John Williams">
+              </div>
+              <div class="team-card__content">
+                <h3 class="team-card__name">John Williams</h3>
+                <p class="team-card__position">Chief Executive Officer</p>
+                <p class="team-card__description">With over 15 years in gaming industry, John leads our vision for innovation.</p>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="team-card__image">
+                <img src="img/member2.jpg" alt="Sarah Chen">
+              </div>
+              <div class="team-card__content">
+                <h3 class="team-card__name">Sarah Chen</h3>
+                <p class="team-card__position">Head of Product</p>
+                <p class="team-card__description">Sarah ensures our platform delivers the best user experience possible.</p>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="team-card__image">
+                <img src="img/member3.jpg" alt="Michael Brown">
+              </div>
+              <div class="team-card__content">
+                <h3 class="team-card__name">Michael Brown</h3>
+                <p class="team-card__position">Technical Director</p>
+                <p class="team-card__description">Michael leads our technical innovations and platform security.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="achievements">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Our Achievements</h2>
+            <p class="section-subtitle">Milestones that mark our journey of excellence</p>
+          </div>
+          <div class="achievements__timeline">
+            <div class="timeline-item">
+              <div class="timeline-item__year">2020</div>
+              <div class="timeline-item__content">
+                <h3>Platform Launch</h3>
+                <p>Successfully launched Fantasy Hot Pro with our first fantasy cricket game</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item__year">2021</div>
+              <div class="timeline-item__content">
+                <h3>Rapid Growth</h3>
+                <p>Reached 500,000 active users and expanded to multiple sports</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item__year">2022</div>
+              <div class="timeline-item__content">
+                <h3>Industry Recognition</h3>
+                <p>Awarded "Best Fantasy Sports Platform" at the Gaming Awards</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-item__year">2023</div>
+              <div class="timeline-item__content">
+                <h3>Global Expansion</h3>
+                <p>Expanded operations to multiple countries with 1M+ active users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust">
+        <div class="container">
+          <div class="trust__content">
+            <h2 class="section-title">Why Trust Us</h2>
+            <div class="trust__grid">
+              <div class="trust-card">
+                <div class="trust-card__icon">
+                  <img src="img/icons/security.svg" alt="Security">
+                </div>
+                <h3>Secure Platform</h3>
+                <p>Advanced encryption and security measures to protect your data</p>
+              </div>
+              <div class="trust-card">
+                <div class="trust-card__icon">
+                  <img src="img/icons/fairplay.svg" alt="Fair Play">
+                </div>
+                <h3>Fair Play Guarantee</h3>
+                <p>Strict monitoring and anti-fraud measures for fair gaming</p>
+              </div>
+              <div class="trust-card">
+                <div class="trust-card__icon">
+                  <img src="img/icons/support.svg" alt="Support">
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock customer support for all your needs</p>
+              </div>
+              <div class="trust-card">
+                <div class="trust-card__icon">
+                  <img src="img/icons/compliance.svg" alt="Compliance">
+                </div>
+                <h3>Legal Compliance</h3>
+                <p>Full compliance with gaming regulations and laws</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       <section class="cta">
-        <div class="wrapper">
+        <div class="container">
           <div class="cta__content">
-            <h2 class="cta__title">Need Assistance? We're Here for You!</h2>
-            <p class="cta__description">
-              Have questions or need guidance? Our dedicated support team is
-              ready to help you. Whether you're just starting or looking to
-              improve your skills, FantasyHotPro ensures a seamless and enjoyable
-              experience.
-            </p>
-            <a href="contact.html" class="cta__button">Contact Us</a>
+            <h2 class="cta__title">Join Our Growing Community</h2>
+            <p class="cta__description">Be part of the most exciting fantasy sports platform</p>
+            <div class="cta__buttons">
+              <a href="contact.html" class="btn btn--primary">Get Started</a>
+              <a href="contact.html" class="btn btn--secondary">Contact Us</a>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer__disclaimer">
-        <div class="wrapper">
-          <h5>Disclaimer</h5>
-          <p>
-            The games offered by us involve elements of financial risk and at
-            times may be addictive. We therefore encourage our players to keep
-            it fun and participate responsibly and at your own risk.
-          </p>
-        </div>
-      </div>
-      <div class="wrapper">
+      <div class="container">
         <div class="footer__content">
-          <div class="footer__column">
-            <div class="footer__title">Our contacts</div>
-            <a href="tel:+919714576243" class="footer__element">+919714576243</a>
-            <a href="mailto:contact@fantasyhotpro.com" class="footer__element">
-									contact@fantasyhotpro.com
-								</a>
+          <div class="footer__info">
+            <a href="index.html" class="footer__logo">
+              <span style="color: #fff;" class="header__logo-text">FantasyHotPro</span>
+            </a>
+            <p class="footer__description">Your ultimate destination for fantasy sports gaming. Join us and experience the thrill of competitive gaming.</p>
+            <div class="footer__certifications">
+              <a href="https://www.gamcare.org.uk/" target="_blank" class="footer__cert-link">
+                <img src="img/6.png" alt="Gamecare Certified" class="footer__cert-img">
+              </a>
+              <img src="img/18.png" alt="18+ Only" class="footer__cert-img">
+            </div>
           </div>
-
-          <div class="footer__column" style="align-items: center">
-            <div class="footer__title">Links</div>
-            <a href="index.html" class="footer__element">Home</a>
-            <a href="about.html" class="footer__element">About</a>
-            <a href="games.html" class="footer__element">Fantasy games</a>
-            <a href="blog.html" class="footer__element">Blog</a>
-            <a href="contact.html" class="footer__element">Contact</a>
-          </div>
-          <div class="footer__column" style="align-items: end">
-            <div class="footer__title">Utility Pages</div>
-            <a href="privacy-policy.html" class="footer__element">Privacy Policy</a>
-            <a href="terms-conditions.html" class="footer__element">Terms of Use</a>
+          <div class="footer__links">
+            <div class="footer__column">
+              <h3 class="footer__title">Quick Links</h3>
+              <ul class="footer__menu">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Support</h3>
+              <ul class="footer__menu">
+                
+                <li><a href="terms-conditions.html">Terms of Service</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="footer__title">Connect</h3>
+              <ul class="footer__social">
+                <li><a href="contact.html" class="social-icon social-icon--facebook">Facebook</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--twitter">Twitter</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--instagram">Instagram</a></li>
+                <li><a href="contact.html" class="social-icon social-icon--youtube">YouTube</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="footer__req">
-          <a href="https://www.gamcare.org.uk/" target="_blank"><img src="img/beg.png" alt="begamble" class="footer__begamble"></a>
-          <img src="img/18.png" alt="18+" class="footer__age">
+        <div class="footer__disclaimer">
+          <p>The games offered by us involve elements of financial risk and may be addictive. Please play responsibly and at your own risk.</p>
         </div>
-        <div class="footer__copy">
-          Copyright © 2025 FantasyHotPro. All Rights Reserved.
+        <div class="footer__bottom">
+          <p class="footer__copyright">&copy; 2024 Fantasy Hot Pro. All rights reserved.</p>
         </div>
       </div>
     </footer>
-		<script src="script.js"></script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
